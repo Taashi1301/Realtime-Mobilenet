@@ -1,0 +1,51 @@
+  body{
+    background-color: grey;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+  }
+  .heading
+  {
+    width: 80%;
+    margin: 0px;
+    box-shadow:5px 5px 5px silver;
+    background-color: greenyellow;
+    color: grey;
+  }
+  .heading_div
+  {
+    background: grey;
+    border: 4px solid black;
+    font-size: 20px; 
+    border-radius: 20px; 
+    color: greenyellow;
+    box-shadow:10px 10px 10px grey;
+    padding: 10px;
+    float: none;
+    margin-top: 10px;
+  }
+  .buttons
+  {
+    box-shadow:5px 5px 5px chartreuse;
+    background-image: radial-gradient(circle, #82fa09, #1cfa74, #00f6af, #00efd8, #00e4ed, #00d7f8, #00c8ff, #30b8ff, #7e9cff, #c773e2, #f53b9f, #f80747);
+    font-size: 20px;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+ .buttons span{
+   white-space: pre-line;
+ }
+ canvas{
+   border: 4px ridge chartreuse;
+   border-radius: 30px;
+   box-shadow: 5px 5px 5px chartreuse;
+   margin-top: 150px;
+ }
+ .copy_right_footer{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   background-image: linear-gradient(to left top, #f1fa09, #ffc200, #ff823c, #ff3b72, #ff00a5, #f100ad, #e100b5, #cf00bd, #ef0096, #ff006b, #ff0040, #f82807);
+   color: whitesmoke;
+   font-size: 18px;
+   text-align: center;
+ }
